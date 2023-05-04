@@ -1,8 +1,8 @@
 import React from "react";
 
-const Footer = () => {
+const Footer = (props) => {
   const correo = "nicolucero20@outlook.es";
-
+  console.log(props);
   return (
     <div>
       <p className="prf">
@@ -26,6 +26,7 @@ const Footer = () => {
           <a href="https://outlook.live.com/mail/0/" target="blank">
             <img src="logoCorreo.png" alt="" width={40} height={40} />
           </a>
+          <h10>{props.saludar()}</h10>
         </div>
       </footer>
     </div>
