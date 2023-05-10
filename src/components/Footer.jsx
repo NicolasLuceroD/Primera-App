@@ -26,7 +26,6 @@ const Footer = (props) => {
           <a href="https://outlook.live.com/mail/0/" target="blank">
             <img src="logoCorreo.png" alt="" width={40} height={40} />
           </a>
-          <h10>{props.saludar()}</h10>
         </div>
       </footer>
     </div>
