@@ -1,8 +1,7 @@
 import React from "react";
 
-const Footer = (props) => {
+const Footer = () => {
   const correo = "nicolucero20@outlook.es";
-  console.log(props);
   return (
     <div>
       <p className="prf">
